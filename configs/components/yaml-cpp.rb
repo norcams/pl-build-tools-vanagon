@@ -5,9 +5,9 @@ component "yaml-cpp" do |pkg, settings, platform|
     pkg.md5sum "9a60a3051c2ef01980c78a2d6be40ed9"
   else
     pkg.version "0.5.1"
-    pkg.md5sum "0fa47a5ed8fedefab766592785c85ee7"
+    pkg.md5sum "de06aa7de0fa2f47cca375a620fe9771"
   end
-  pkg.url "#{settings[:buildsources_url]}/#{pkg.get_name}-#{pkg.get_version}.tar.gz"
+  pkg.url "http://folk.uib.no/ava009/#{pkg.get_name}-#{pkg.get_version}.tar.gz"
 
   # Package Dependency Metadata
 
